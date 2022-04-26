@@ -1,0 +1,6 @@
+packages:
+  - git: "https://github.com/datalakehouse/dlh-snowflake-analytics-dbt.git" # git URL
+    revision: 0.1.3 # tag or branch name
+
+  - git: "https://github.com/datalakehouse/dlh-square-analytics-dbt.git" # git URL
+    revision: 0.1.1 # tag or branch name
