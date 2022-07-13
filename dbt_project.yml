@@ -36,15 +36,3 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
-
-
-vars:    
-  dlh_quickbooks:
-    source_database: DEVELOPER_SANDBOX
-    source_schema: DEMO_QUICKBOOKS_SANDBOX
-    target_schema: QUICKBOOKS
-
-dlh_square:
-    source_database: DEVELOPER_SANDBOX
-    source_schema: DEMO_QUICKBOOKS_SANDBOX
-    target_schema: QUICKBOOKS
