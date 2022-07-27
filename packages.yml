@@ -1,7 +1,4 @@
 packages:
-  - git: "https://github.com/datalakehouse/dlh-square-analytics-dbt.git" # git URL
-    revision: main
-
   - git: "https://github.com/datalakehouse/dlh-salesforce-analytics-dbt.git" # git URL
     revision: main
 
