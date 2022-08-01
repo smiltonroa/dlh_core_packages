@@ -28,6 +28,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
+
 # In this example config, we tell dbt to build all models in the example/ directory
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
@@ -36,3 +37,23 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+  dlh_quickbooks:
+    source_database: DEVELOPER_SANDBOX
+    source_schema: DEMO_QUICKBOOKS_SANDBOX
+    target_schema: QUICKBOOKS
+  dlh_salesforce:
+    source_database: DEVELOPER_SANDBOX
+    source_schema: DEMO_SALESFORCE
+    target_schema: SALESFORCE
+  dlh_square:
+    source_database: DEVELOPER_SANDBOX
+    source_schema: DEMO_SQUARE_ALT13
+    target_schema: SQUARE
+  dlh_stripe:
+    source_database: DEVELOPER_SANDBOX
+    source_schema: DEMO_STRIPE_NEW
+    target_schema: STRIPE
+  dlh_xero:
+    source_database: DEVELOPER_SANDBOX
+    source_schema: DEMO_XERO
+    target_schema: XERO
