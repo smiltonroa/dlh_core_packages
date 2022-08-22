@@ -13,3 +13,6 @@ packages:
 
   - git: "https://github.com/datalakehouse/dlh-stripe-analytics-dbt" # git URL
     revision: main
+
+  - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/datalakehouse/dlh-doordash-analytics-dbt.git" # git URL
+    revision: main
