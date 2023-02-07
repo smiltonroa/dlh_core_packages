@@ -24,4 +24,4 @@ packages:
     revision: main
 
   - package: dbt-labs/dbt_utils
-    version: 1.0.0
+    version: 0.9.6
