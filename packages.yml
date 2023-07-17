@@ -26,5 +26,8 @@ packages:
   - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/datalakehouse/dlh-staffing-recruiting-analytics-dbt.git" # git URL
     revision: main
 
+  - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/datalakehouse/dlh-beans-route-dbt.git" # git URL
+    revision: main
+    
   - package: dbt-labs/dbt_utils
     version: 0.8.6
