@@ -20,6 +20,9 @@ packages:
   - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/datalakehouse/dlh-snowflake-analytics-dbt.git" # git URL
     revision: main
 
+  - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/datalakehouse/dlh-snowflake-analytics-organization-dbt.git" # git URL
+    revision: main
+
   - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/datalakehouse/dlh-ceridian-dayforce-analytics-dbt.git" # git URL
     revision: main
     
